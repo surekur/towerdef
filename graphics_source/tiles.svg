@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="tiles.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2973">
+      <stop
+         style="stop-color:#806600;stop-opacity:1"
+         offset="0"
+         id="stop2969" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2971" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2821">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1"
+         offset="0"
+         id="stop2817" />
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:1"
+         offset="1"
+         id="stop2819" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2543">
+      <stop
+         style="stop-color:#404040;stop-opacity:1;"
+         offset="0"
+         id="stop2539" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="1"
+         id="stop2541" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient940">
+      <stop
+         style="stop-color:#808080;stop-opacity:1"
+         offset="0"
+         id="stop936" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop938" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient921">
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1;"
+         offset="0"
+         id="stop917" />
+      <stop
+         style="stop-color:#333333;stop-opacity:1"
+         offset="1"
+         id="stop919" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient909">
+      <stop
+         style="stop-color:#666666;stop-opacity:1"
+         offset="0"
+         id="stop905" />
+      <stop
+         style="stop-color:#808080;stop-opacity:1"
+         offset="1"
+         id="stop907" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient901">
+      <stop
+         style="stop-color:#333333;stop-opacity:1"
+         offset="0"
+         id="stop897" />
+      <stop
+         style="stop-color:#666666;stop-opacity:1"
+         offset="1"
+         id="stop899" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient855-6">
+      <stop
+         style="stop-color:#f5d96c;stop-opacity:1"
+         offset="0"
+         id="stop871" />
+      <stop
+         style="stop-color:#010101;stop-opacity:0"
+         offset="1"
+         id="stop873" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient855-6"
+       id="radialGradient857"
+       cx="63.938358"
+       cy="60.102062"
+       fx="63.938358"
+       fy="60.102062"
+       r="30.262403"
+       gradientTransform="matrix(1,0,0,0.98152855,0,1.1101722)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient901"
+       id="linearGradient903"
+       x1="57.860321"
+       y1="191.11344"
+       x2="67.313519"
+       y2="191.11344"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5928126,0,0,1,-37.645171,-15.858981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient909"
+       id="linearGradient911"
+       x1="48.556789"
+       y1="184.87066"
+       x2="58.009988"
+       y2="184.87066"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5928126,0,0,1,-37.645171,-15.858981)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient901"
+       id="linearGradient915"
+       gradientUnits="userSpaceOnUse"
+       x1="57.860321"
+       y1="191.11344"
+       x2="67.313519"
+       y2="191.11344"
+       gradientTransform="matrix(1.5928126,0,0,1,-22.717678,-9.5703967)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient921"
+       id="linearGradient923"
+       x1="48.375786"
+       y1="161.09344"
+       x2="48.108517"
+       y2="173.65511"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient940"
+       id="linearGradient942"
+       x1="301.4043"
+       y1="516.93262"
+       x2="322.23828"
+       y2="516.93262"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2543"
+       id="linearGradient2545"
+       x1="119.44121"
+       y1="162.05087"
+       x2="142.75442"
+       y2="162.05087"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2543"
+       id="linearGradient2551"
+       gradientUnits="userSpaceOnUse"
+       x1="119.44121"
+       y1="162.05087"
+       x2="142.75442"
+       y2="162.05087"
+       gradientTransform="translate(0,-23.05677)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient940"
+       id="linearGradient2561"
+       gradientUnits="userSpaceOnUse"
+       x1="301.4043"
+       y1="516.93262"
+       x2="322.23828"
+       y2="516.93262"
+       gradientTransform="matrix(0.41660547,0,0,0.41660547,36.175122,-72.525403)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient921"
+       id="linearGradient2565"
+       gradientUnits="userSpaceOnUse"
+       x1="48.375786"
+       y1="161.09344"
+       x2="48.108517"
+       y2="173.65511"
+       gradientTransform="matrix(0.51252489,0,0,1,127.22704,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient940"
+       id="linearGradient2607"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41660547,0,0,0.41660547,23.30499,-72.525403)"
+       x1="301.4043"
+       y1="516.93262"
+       x2="322.23828"
+       y2="516.93262" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2823"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641"
+       gradientTransform="matrix(1,0,0,0.33333333,2.4730579,55.936588)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2827"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,12.173408,12.159749)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2831"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,7.10739,15.12052)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2835"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,5.9860463,-39.144239)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2839"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-8.1752388,-83.401669)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2843"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-77.526223,-150.4476)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2847"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-56.738444,-139.7583)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2851"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-114.70475,-160.50307)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2855"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-106.3369,-159.67381)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2859"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-227.90353,-139.56935)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2863"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-204.4033,-150.43143)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2867"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-287.41008,-70.658374)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2871"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-304.76583,-41.652179)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2875"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-274.05947,-91.858585)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2879"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-297.38701,-54.490137)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-297.02248,48.883731)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2887"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-226.72686,129.07409)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2891"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-172.42641,149.2329)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2895"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-60.166616,126.19206)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2899"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-52.065867,116.68133)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2903"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-75.046555,134.60767)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2907"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-166.47812,148.07777)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2911"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-270.90875,91.753179)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2821"
+       id="radialGradient2915"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.33333333,-295.67169,40.783317)"
+       cx="145.6619"
+       cy="86.391609"
+       fx="145.6619"
+       fy="86.391609"
+       r="6.0135641" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2973"
+       id="radialGradient2975"
+       cx="147.49936"
+       cy="59.898518"
+       fx="147.49936"
+       fy="59.898518"
+       r="22.016327"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2427921,0,0,1,-38.346808,1.8384615)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="87.851562"
+     inkscape:cy="754.82023"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1916"
+     inkscape:window-height="1160"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-center="true">
+    <sodipodi:guide
+       position="79.746543,168.01231"
+       orientation="1,0"
+       id="guide931"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="119.53629,164.9053"
+       orientation="1,0"
+       id="guide2534"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="62.809819,58.115209"
+       orientation="0,1"
+       id="guide1514"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="62.809819,58.115209"
+       orientation="1,0"
+       id="guide1516"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="1. réteg"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       y="27.818441"
+       x="29.808304"
+       id="image846"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       preserveAspectRatio="none"
+       height="67.73333"
+       width="67.73333"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/hill.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient857);fill-opacity:1.0;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path849"
+       cx="63.938358"
+       cy="60.102062"
+       rx="30.262403"
+       ry="29.703413"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/hill.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <image
+       width="67.73333"
+       height="67.73333"
+       preserveAspectRatio="none"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       id="image881"
+       x="111.26217"
+       y="27.818441"
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <circle
+       style="opacity:1;fill:url(#radialGradient2975);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2967"
+       r="22.016327"
+       cy="61.73698"
+       cx="144.96423"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <image
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       y="116.81919"
+       x="111.26217"
+       id="image883"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       preserveAspectRatio="none"
+       height="67.73333"
+       width="67.73333"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="128.54539"
+       x="145.99461"
+       height="32.205978"
+       width="27.122503"
+       id="rect2567"
+       style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       sodipodi:nodetypes="cscccccccscc"
+       inkscape:connector-curvature="0"
+       id="path2547"
+       d="m 119.44121,126.87985 c 0,0 2.48922,7.1283 2.36235,10.72519 -0.091,2.58055 -2.36235,7.41789 -2.36235,7.41789 h 0.0475 0.0475 c -0.0134,0.0914 -0.0226,0.18284 -0.0274,0.2744 5.3e-4,3.20945 5.20416,5.8111 11.62306,5.81102 6.41871,-6e-5 11.62214,-2.60167 11.62255,-5.81102 -0.004,-0.19286 -0.027,-0.38551 -0.0693,-0.57722 0,0 -2.6426,-4.72932 -2.78757,-7.0775 -0.23333,-3.77943 2.78757,-10.76276 2.78757,-10.76276 z"
+       style="opacity:1;fill:url(#linearGradient2551);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <image
+       width="67.73333"
+       height="67.73333"
+       preserveAspectRatio="none"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       id="image885"
+       x="28.943155"
+       y="116.81919"
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <image
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       y="205.01813"
+       x="28.943155"
+       id="image887"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       preserveAspectRatio="none"
+       height="67.73333"
+       width="67.73333" />
+    <image
+       width="67.73333"
+       height="67.73333"
+       preserveAspectRatio="none"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       id="image889"
+       x="112.33125"
+       y="205.01813"
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient923);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect891"
+       width="52.919369"
+       height="12.646326"
+       x="36.617893"
+       y="160.75137"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient911);fill-opacity:1;stroke:none;stroke-width:0.27826482;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect893"
+       width="15.057174"
+       height="35.045177"
+       x="39.696693"
+       y="151.48909"
+       transform="matrix(0.90693281,-0.42127531,0,1,0,0)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       transform="matrix(0.90693281,-0.42127531,0,1,0,0)"
+       y="157.73187"
+       x="54.515476"
+       height="35.045177"
+       width="15.057174"
+       id="rect895"
+       style="opacity:1;fill:url(#linearGradient903);fill-opacity:1;stroke:none;stroke-width:0.27826482;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:url(#linearGradient915);fill-opacity:1;stroke:none;stroke-width:0.27826482;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect913"
+       width="15.057174"
+       height="35.045177"
+       x="69.44297"
+       y="164.02046"
+       transform="matrix(0.90693281,-0.42127531,0,1,0,0)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect925"
+       width="12.828937"
+       height="32.205978"
+       x="76.572716"
+       y="135.97011"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#898989;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect944"
+       width="8.1737347"
+       height="5.2444196"
+       x="78.335564"
+       y="140.28162"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       style="opacity:1;fill:url(#linearGradient942);fill-opacity:1;stroke:none;stroke-width:1.00157475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 301.4043 487.51172 L 301.4043 539.15625 L 301.63867 539.15625 A 10.354064 8.333758 0 0 0 311.88477 546.35352 A 10.354064 8.333758 0 0 0 322.23828 538.01953 A 10.354064 8.333758 0 0 0 321.98633 536.24023 L 321.98633 487.51172 L 301.4043 487.51172 z "
+       transform="scale(0.26458333)"
+       id="rect929"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path927"
+       cx="82.51947"
+       cy="129.08792"
+       rx="2.7395127"
+       ry="2.2049735"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="145.52603"
+       x="78.335564"
+       height="2.0788691"
+       width="8.1737347"
+       id="rect946"
+       style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/industry.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       style="opacity:1;fill:url(#linearGradient2545);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 119.44121,149.93662 c 0,0 2.48922,7.1283 2.36235,10.72519 -0.091,2.58055 -2.36235,7.41789 -2.36235,7.41789 h 0.0475 0.0475 c -0.0134,0.0914 -0.0226,0.18284 -0.0274,0.2744 5.3e-4,3.20945 5.20416,5.8111 11.62306,5.81102 6.41871,-6e-5 11.62214,-2.60167 11.62255,-5.81102 -0.004,-0.19286 -0.027,-0.38551 -0.0693,-0.57722 0,0 -2.6426,-4.72932 -2.78757,-7.0775 -0.23333,-3.77943 2.78757,-10.76276 2.78757,-10.76276 z"
+       id="ellipse2532"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccccccscc"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       rx="11.622767"
+       ry="5.8113837"
+       cy="126.85557"
+       cx="131.13182"
+       id="ellipse2549"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2530"
+       cx="131.13182"
+       cy="149.91234"
+       ry="5.8113837"
+       rx="11.622767"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="148.35808"
+       x="159.52011"
+       height="8.2577162"
+       width="12.870132"
+       id="rect2553"
+       style="opacity:1;fill:#898989;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       id="path2555"
+       d="m 161.7418,130.57464 v 21.51542 h 0.0976 a 4.3135596,3.4718891 0 0 0 4.26859,2.9984 4.3135596,3.4718891 0 0 0 4.31332,-3.47198 4.3135596,3.4718891 0 0 0 -0.10502,-0.74126 v -20.30058 z"
+       style="opacity:1;fill:url(#linearGradient2561);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       ry="3.4718893"
+       rx="4.3135595"
+       cy="130.7328"
+       cx="166.10796"
+       id="ellipse2557"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2559"
+       width="12.870132"
+       height="3.2733288"
+       x="159.52011"
+       y="156.6158"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="160.75137"
+       x="145.99461"
+       height="12.646326"
+       width="27.122494"
+       id="rect2563"
+       style="opacity:1;fill:url(#linearGradient2565);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#898989;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2599"
+       width="12.870132"
+       height="8.2577162"
+       x="146.64998"
+       y="148.35808"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:url(#linearGradient2607);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 148.87167,130.57464 v 21.51542 h 0.0976 a 4.3135596,3.4718891 0 0 0 4.26859,2.9984 4.3135596,3.4718891 0 0 0 4.31332,-3.47198 4.3135596,3.4718891 0 0 0 -0.10502,-0.74126 v -20.30058 z"
+       id="path2601"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2603"
+       cx="153.23782"
+       cy="130.7328"
+       rx="4.3135595"
+       ry="3.4718893"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="156.6158"
+       x="146.64998"
+       height="3.2733288"
+       width="12.870132"
+       id="rect2605"
+       style="opacity:1;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/powerplant.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient2823);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2815"
+       cx="148.13495"
+       cy="84.733795"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(15.372212)"
+       style="opacity:1;fill:url(#radialGradient2831);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2829"
+       cx="152.76929"
+       cy="43.917728"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-2.8348214"
+       inkscape:transform-center-y="-1.7008928"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="40.956955"
+       cx="157.83531"
+       id="ellipse2825"
+       style="opacity:1;fill:url(#radialGradient2827);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(15.372212)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(52.979757)"
+       style="opacity:1;fill:url(#radialGradient2839);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2837"
+       cx="137.48666"
+       cy="-54.604458"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-3.2837401"
+       inkscape:transform-center-y="0.38248619"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="-0.67140829"
+       inkscape:transform-center-x="-3.2370438"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-10.34703"
+       cx="151.64792"
+       id="ellipse2833"
+       style="opacity:1;fill:url(#radialGradient2835);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(34.618182)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(88.862481)"
+       style="opacity:1;fill:url(#radialGradient2843);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2841"
+       cx="68.135666"
+       cy="-121.65039"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-2.4363647"
+       inkscape:transform-center-y="2.2345908"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="1.8288527"
+       inkscape:transform-center-x="-2.7540138"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-110.96109"
+       cx="88.923447"
+       id="ellipse2845"
+       style="opacity:1;fill:url(#radialGradient2847);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(79.922844)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(100.14299)"
+       style="opacity:1;fill:url(#radialGradient2851);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2849"
+       cx="30.957138"
+       cy="-131.70589"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-1.9521821"
+       inkscape:transform-center-y="2.6680186"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="2.5760854"
+       inkscape:transform-center-x="-2.0720015"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-130.87665"
+       cx="39.324997"
+       id="ellipse2853"
+       style="opacity:1;fill:url(#radialGradient2855);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(97.525493)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(145.25718)"
+       style="opacity:1;fill:url(#radialGradient2859);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2857"
+       cx="-82.241646"
+       cy="-110.77217"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="0.5126818"
+       inkscape:transform-center-y="3.2659847"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="3.3056714"
+       inkscape:transform-center-x="-0.045029481"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-121.63425"
+       cx="-58.741425"
+       id="ellipse2861"
+       style="opacity:1;fill:url(#radialGradient2863);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(135.55536)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(179.66255)"
+       style="opacity:1;fill:url(#radialGradient2867);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2865"
+       cx="-141.7482"
+       cy="-41.861187"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="2.2684254"
+       inkscape:transform-center-y="2.4049461"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="1.9199962"
+       inkscape:transform-center-x="2.6913061"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-12.854995"
+       cx="-159.10396"
+       id="ellipse2869"
+       style="opacity:1;fill:url(#radialGradient2871);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-169.16848)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(170.25528)"
+       style="opacity:1;fill:url(#radialGradient2875);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2873"
+       cx="-128.39758"
+       cy="-63.061394"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="1.8448304"
+       inkscape:transform-center-y="2.7433814"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="2.1679358"
+       inkscape:transform-center-x="2.4959099"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="-25.692951"
+       cx="-151.72514"
+       id="ellipse2877"
+       style="opacity:1;fill:url(#radialGradient2879);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-174.64176)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(-136.26764)"
+       style="opacity:1;fill:url(#radialGradient2883);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2881"
+       cx="-151.3606"
+       cy="77.680908"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="3.3025727"
+       inkscape:transform-center-y="0.1501715"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="-1.9383646"
+       inkscape:transform-center-x="2.6781076"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="157.87129"
+       cx="-81.06501"
+       id="ellipse2885"
+       style="opacity:1;fill:url(#radialGradient2887);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-97.76799)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(-75.433883)"
+       style="opacity:1;fill:url(#radialGradient2891);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2889"
+       cx="-26.764553"
+       cy="178.03009"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="1.7406127"
+       inkscape:transform-center-y="-2.810654"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="-3.2641251"
+       inkscape:transform-center-x="-0.52439048"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="154.98924"
+       cx="85.495239"
+       id="ellipse2893"
+       style="opacity:1;fill:url(#radialGradient2895);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-34.537603)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(-29.372887)"
+       style="opacity:1;fill:url(#radialGradient2899);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2897"
+       cx="93.595985"
+       cy="145.47852"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-0.81609924"
+       inkscape:transform-center-y="-3.2036662"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(-41.876467)"
+       style="opacity:1;fill:url(#radialGradient2903);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2901"
+       cx="70.615303"
+       cy="163.40488"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="-0.10314781"
+       inkscape:transform-center-y="-3.3043654"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="-2.810654"
+       inkscape:transform-center-x="1.7406127"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="176.87497"
+       cx="-20.816257"
+       id="ellipse2905"
+       style="opacity:1;fill:url(#radialGradient2907);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-75.433883)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       transform="rotate(-118.22842)"
+       style="opacity:1;fill:url(#radialGradient2911);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2909"
+       cx="-125.24689"
+       cy="120.55035"
+       rx="6.0135641"
+       ry="2.0045214"
+       inkscape:transform-center-x="3.1867399"
+       inkscape:transform-center-y="-0.87990192"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       inkscape:transform-center-y="0.33962873"
+       inkscape:transform-center-x="3.2885003"
+       ry="2.0045214"
+       rx="6.0135641"
+       cy="69.580505"
+       cx="-150.00983"
+       id="ellipse2913"
+       style="opacity:1;fill:url(#radialGradient2915);fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-139.56032)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="45.59441"
+       x="134.00879"
+       height="8.0792408"
+       width="5.2916665"
+       id="rect2923"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2925"
+       cx="136.62445"
+       cy="42.762798"
+       rx="2.4633861"
+       ry="2.3355198"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       ry="2.3355198"
+       rx="2.4633861"
+       cy="41.660313"
+       cx="136.79149"
+       id="ellipse2927"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2929"
+       width="5.2916665"
+       height="8.0792408"
+       x="-153.19849"
+       y="46.329403"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       ry="2.3355198"
+       rx="2.4633861"
+       cy="43.497791"
+       cx="-150.58282"
+       id="ellipse2931"
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2933"
+       cx="-150.41579"
+       cy="42.395306"
+       rx="2.4633861"
+       ry="2.3355198"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2935"
+       width="16.102989"
+       height="2.9399648"
+       x="80.968155"
+       y="138.05922"
+       transform="rotate(-42.783417)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2937"
+       width="5.1702461"
+       height="5.4656329"
+       x="153.46576"
+       y="46.596672"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="45.594414"
+       x="128.47606"
+       height="5.4656329"
+       width="5.1702461"
+       id="rect2939"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       transform="rotate(-144.9279)"
+       y="36.310993"
+       x="-135.43358"
+       height="2.9399648"
+       width="16.102989"
+       id="rect2941"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2943"
+       width="5.2916665"
+       height="8.0792408"
+       x="134.27606"
+       y="63.501469"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       ry="2.3355198"
+       rx="2.4633861"
+       cy="60.603039"
+       cx="136.82491"
+       id="ellipse2945"
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2947"
+       sodipodi:type="arc"
+       sodipodi:cx="144.02336"
+       sodipodi:cy="-39.884834"
+       sodipodi:rx="3.048543"
+       sodipodi:ry="2.2864072"
+       sodipodi:start="0"
+       sodipodi:end="3.1680765"
+       sodipodi:open="true"
+       d="m 147.0719,-39.884834 a 3.048543,2.2864072 0 0 1 -1.54763,1.990101 3.048543,2.2864072 0 0 1 -3.07155,-0.03051 3.048543,2.2864072 0 0 1 -1.47683,-2.020141"
+       transform="matrix(0.98985807,0.14205987,0.14205987,-0.98985807,0,0)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2949"
+       width="16.102989"
+       height="2.9399648"
+       x="-66.188431"
+       y="-133.87346"
+       transform="rotate(143.1975)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2951"
+       width="5.1702461"
+       height="5.4656329"
+       x="128.75955"
+       y="67.706024"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="68.046822"
+       x="152.89879"
+       height="5.4656329"
+       width="5.1702461"
+       id="rect2953"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       transform="rotate(34.362289)"
+       y="-33.118244"
+       x="164.60649"
+       height="2.9399648"
+       width="16.102989"
+       id="rect2955"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       y="63.501469"
+       x="-152.56731"
+       height="8.0792408"
+       width="5.2916665"
+       id="rect2957"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <ellipse
+       style="opacity:1;fill:#c8ab37;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse2959"
+       cx="-150.01846"
+       cy="60.603039"
+       rx="2.4633861"
+       ry="2.3355198"
+       transform="scale(-1,1)"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <path
+       transform="rotate(171.83294)"
+       d="m -136.86233,-80.633766 a 3.048543,2.2864072 0 0 1 -1.54764,1.990101 3.048543,2.2864072 0 0 1 -3.07155,-0.03051 3.048543,2.2864072 0 0 1 -1.47683,-2.020141"
+       sodipodi:open="true"
+       sodipodi:end="3.1680765"
+       sodipodi:start="0"
+       sodipodi:ry="2.2864072"
+       sodipodi:rx="3.048543"
+       sodipodi:cy="-80.633766"
+       sodipodi:cx="-139.91087"
+       sodipodi:type="arc"
+       id="path2961"
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2963"
+       width="5.4806542"
+       height="2.3623512"
+       x="144.02515"
+       y="69.406914"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <rect
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2965"
+       width="4.7247024"
+       height="2.1733632"
+       x="136.8436"
+       y="69.595909"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/mg_nest.png"
+       inkscape:export-xdpi="12"
+       inkscape:export-ydpi="12" />
+    <image
+       width="67.73333"
+       height="67.73333"
+       preserveAspectRatio="none"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       id="image1526"
+       x="28.943155"
+       y="296.15704"
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       style="opacity:0.006"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/cant-build.png"
+       inkscape:export-xdpi="12.000002"
+       inkscape:export-ydpi="12.000002" />
+    <path
+       id="path1528"
+       d="M 34.011362,301.22531 V 317.43 h 6.214088 v -9.9906 h 9.990606 v -6.21409 z m 41.392302,0 v 6.21409 h 9.990606 v 9.9906 h 6.214091 V 301.22531 Z M 34.011362,342.6171 v 16.20468 h 16.204694 v -6.21356 H 40.22545 v -9.99112 z m 51.382908,0 v 9.99112 h -9.990606 v 6.21356 H 91.608361 V 342.6171 Z"
+       style="opacity:1;fill:#d40000;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/cant-build.png"
+       inkscape:export-xdpi="12.000002"
+       inkscape:export-ydpi="12.000002" />
+    <image
+       sodipodi:absref="/home/ges/gits/towerdef/data/foo.png"
+       y="296.15704"
+       x="114.46809"
+       id="image1530"
+       xlink:href="file:///home/ges/gits/towerdef/data/foo.png"
+       preserveAspectRatio="none"
+       height="67.73333"
+       width="67.73333"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/can-build.png"
+       inkscape:export-xdpi="12.000002"
+       inkscape:export-ydpi="12.000002"
+       style="opacity:0.003" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 119.53629,301.22531 V 317.43 h 6.21409 v -9.9906 h 9.9906 v -6.21409 z m 41.3923,0 v 6.21409 h 9.99061 v 9.9906 h 6.21409 v -16.20469 z m -41.3923,41.39179 v 16.20468 h 16.20469 v -6.21356 h -9.9906 v -9.99112 z m 51.38291,0 v 9.99112 h -9.99061 v 6.21356 h 16.2047 V 342.6171 Z"
+       id="path1532"
+       inkscape:export-filename="/home/ges/gits/towerdef/data/can-build.png"
+       inkscape:export-xdpi="12.000002"
+       inkscape:export-ydpi="12.000002" />
+  </g>
+</svg>

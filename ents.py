@@ -1,0 +1,95 @@
+from pygame.math import Vector2 as Vec
+from pygame.time import get_ticks
+from pygame.rect import Rect
+from utils import *
+
+class Entity:
+    def __init__(self, pos, game):
+        self.pos = Vec(pos)
+        self.collides = False
+        self.game = game
+
+    def update(self, delta):
+        """
+        Called in every framestep.
+        """
+        pass
+
+    def think(self):
+        """
+        Called irregularly and less often than update.
+        Place more time consuming logic here!
+        """
+        pass
+
+    def draw(self, screen): 
+        """
+        Called on every frame step.
+        """
+        pass
+
+    def move(self, v):
+        self.pos += Vec(v)
+
+class Animated:
+    def __init__(self, animationspeed, pos):
+        self.frames = []
+        self.animspeed = animationspeed
+        # self.activeframe = 0
+
+    def draw(self, pos, screen):
+        frame = int( len(self.frames) // (get_ticks()*self.animspeed) )
+        screen.blit(self.frames[frame])
+
+class Collideable(Entity):
+    def __init__(self, pos):
+        super().__init__(pos)
+        self.collisionrect = Rect(pos, (TILESIZE, TILESIZE))
+        self.collides = True
+
+    def test_collision(self, ents):
+        for otherent in ents:
+            if otherent is not self and otherent.collides and \
+            self.collisionrect.colliderect(otherent.collisionrect):
+                self.on_colide(otherent)
+
+    def on_colide(self, otherent):
+        pass
+
+    def move(self, v):
+        self.pos += Vec(v)
+        self.collisionrect.move(v)
+
+
+class Cow(Collideable, Animated):
+    def __init__(self, pos):
+        super().__init__(pos)
+        self.speed = Vec(-1, 0)
+        self.frames = [
+                    get_image("data/cow.png"),
+                ]
+
+    def update(self, delta):
+        self.move(self.speed * delta * self.speed)
+
+
+class Truck(Collideable):
+    def __init__(self, pos):
+        super().__init__(pos)
+        self.speed = Vec(-1, 0)
+        self.acceleration = 1
+        self.topspeed = 1
+        self.hitpoints = 100
+        self.path = []
+        self.surface = get_image("data/truck-left1.png")
+
+    def find_path():
+        pass
+
+    def update(delta):
+        # TODO 
+
+        if self.speed.length > self.topspeed:
+            self.speed.scale_to_length(self.topspeed)
+        self.pos += self.speed
+    
