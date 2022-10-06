@@ -2,6 +2,8 @@ from pygame.surface import Surface
 from constans import *
 import battlefield
 from utils import *
+from pygame import font
+from pygame import Rect
 
 class UIElement:
     def __init__(self, parent, area):
@@ -66,9 +68,46 @@ class UIRoot(UIElement):
             self.surface.blit(child.surface, child.area)
 
 
-class Menu(UIElement):
+class TextMenu(UIElement):
     def __init__(self, parent, area):
-        pass
+        super().__init__(parent, area)
+        self.elements = []
+        self.hovered = None
+        self.textsize = 30
+        self.bgcol1 = 40,40,40
+        self.bgcol2 = 60,60,60
+        self.hoveredbg = 60,60,90
+        self.font = font.Font(font.get_default_font())
+
+    def re_draw(self):
+        self.surface.fill(20,20,20)
+        eventh = False
+        for i, element in enumerate(self.elements):
+            if eventh:
+                drawcolor = self.bgcol2
+            else:
+                drawcolor = self.bgcol1
+            eventh = not eventh
+            pos = i * self.textsize
+            self.surface.fill(drawcolor,
+                    Rect(0, pos, self.area.width, self.textsize)
+                    )
+            textsurf = self.font.render(element.text, True,
+                    (255,255,255))
+            self.surface.blit(textsurf, (20, pos))
+
+            
+    
+    def on_hover(self, pos):
+        self.hovered = int(Vec(pos).x // self.textsize)
+        self.re_draw()
+
+
+class TextMenuElement:
+    def __init__(self, text, payload):
+        self.text = text
+        self.payload = payload
+
 
 class ToolBox(UIElement):
     def __init__(self, parent, area, buttonheight):
@@ -127,5 +166,26 @@ class BuildingPanel(ToolBox):
                     get_image("data/mg_nest.png")),
                 ]
         self.re_draw()
-        
+ 
+
+def savegame(toolbox):
+    toolbox.game.save(toolbox.sql)
+    toolbox.game.after_load()
+    toolbox.game.parent = toolbox.parent
+
+def loadgame(toolbox):
+    pass
+
+class MainPanel(ToolBox):
+    def __init__(self, parent, area, game, sql):
+        super().__init__(parent, area, TILESIZE)
+        self.game = game
+        self.sql = sql
+        self.elements = [
+            ToolBoxElement(savegame,
+                get_image("data/savegame.png")),
+            ToolBoxElement(loadgame,
+                get_image("data/loadgame.png")),
+                ]
+        self.re_draw()
 

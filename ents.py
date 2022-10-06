@@ -32,6 +32,19 @@ class Entity:
     def move(self, v):
         self.pos += Vec(v)
 
+    def pre_save(self):
+        """
+        Called just before saving the game to the sqlite db.
+        We should remove unnececery data, like bitmaps from the
+        objects, so they will not waste space on the harddrive.
+        """
+        if hasattr(self, "surface"):
+            self.surface = None
+
+    def on_loadgame(self):
+        if hasattr(self, "surfacefile"):
+            self.surface = get_image(self.surfacefile)
+
 class Animated:
     def __init__(self, animationspeed, pos):
         self.frames = []
@@ -84,6 +97,7 @@ class Truck(Collideable):
         self.hitpoints = 100
         self.path = []
         self.surface = get_image("data/truck-left1.png")
+        self.surfacefile = "data/truck-left1.png"
         self.game.foes.add(self)
 
     def find_path(self):

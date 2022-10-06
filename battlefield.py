@@ -9,6 +9,7 @@ class MapTile:
         self.destructible = False
         self.canbuildonto = True
         self.bitmap = get_image('data/foo.png')
+        self.bitmapfile = "data/foo.png"
         self.cord = cord
 
     def update(self):
@@ -26,6 +27,12 @@ class MapTile:
 
     def draw(self, pos, screen):
         screen.blit(self.bitmap, pos)
+
+    def pre_save(self):
+        self.bitmap = None
+
+    def on_loadgame(self):
+        self.bitmap = get_image(self.bitmapfile)
 
 
 class TowerLike(MapTile):
@@ -49,11 +56,13 @@ class MGNest(TowerLike):
         self.destructible = 7
         self.canbuildonto = False
         self.bitmap = get_image('data/mg_nest.png')
+        self.bitmapfile = "data/mg_nest.png"
 
 
 def create_hills(cord, game):
     hills = MapTile(cord, game)
     hills.bitmap = get_image("data/hill.png")
+    hills.bitmapfile = "data/hill.png"
     hills.passable = False
     hills.destructible = False
     hills.canbuildonto = False

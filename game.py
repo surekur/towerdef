@@ -6,6 +6,9 @@ import ents
 from battlefield import MGNest
 from pygame.rect import Rect
 import gamesystems
+from time import time
+import pickle
+from pygame.surface import Surface
 
 canbuild = get_image("data/can-build.png")
 cantbuild = get_image("data/cant-build.png")
@@ -26,9 +29,6 @@ class Game(UIElement):
         self.buildingselector = BuildingPanel(self.parent, 
                 Rect(self.area.width, 0, TILESIZE, 600))
         self.parent.children.append(self.buildingselector)
-
-        # test:
-        self.ents.add(ents.Truck((600, 200), self))
 
     def on_hover(self, pos):
         self.tileundercursor = Vec(pos) // TILESIZE
@@ -72,6 +72,26 @@ class Game(UIElement):
                 buildcursor = canbuild
             else:
                 buildcursor = cantbuild
-            self.surface.blit(buildcursor, Vec(self.tileundercursor) * TILESIZE)
+            self.surface.blit(
+                    buildcursor, Vec(self.tileundercursor) * TILESIZE)
         self.parent.re_draw()
 
+    def save(self, sql):
+        self.buildingselector = None
+        self.surface = None
+        self.parent = None
+        for ent in self.ents:
+            ent.pre_save()
+        for tile in self.battlefield.values():
+            tile.pre_save()
+        gamememory = pickle.dumps(self, pickle.HIGHEST_PROTOCOL)
+        sql.execute("INSERT INTO Saves(ut, gamememory) VALUES (?, ?)",
+                (time(), gamememory)
+                )
+
+    def after_load(self):
+        self.surface = Surface((self.area.width, self.area.height))
+        for ent in self.ents:
+            ent.on_loadgame()
+        for tile in self.battlefield.values():
+            tile.on_loadgame()
