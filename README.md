@@ -1,6 +1,6 @@
 # About
 
-Nothing particularly interesting to see here, go on people!
+Nothing particularly interesting to see here, just a silly unfinished game. Move on people!
 
 # Instalation
 
