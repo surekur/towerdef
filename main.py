@@ -8,29 +8,8 @@ from pygame.time import get_ticks
 import widgets
 import game
 import battlefield
+from constans import testmap
 
-
-testmap = \
-"""____________________
-____________________
-____________________
-____________________
-____####____________
-____________________
-___________######___
-___#####____________
-____##______________
-____________________
-____________________
-____________________
-####________________
-____________________
-____________________
-____________________
-____________________
-_________##########_
-____________________
-____________________"""
 
 
 def frame_step(delta):
@@ -46,13 +25,14 @@ def frame_step(delta):
     pg.display.update()
     pg.display.flip()
 
-bf = battlefield.load_battlefield(testmap)
+uitree = widgets.UIRoot(None, Rect(0, 0, 800, 800))
+gameinstance = game.Game(uitree, Rect(0, 0, 768, 800) )
+bf = battlefield.load_battlefield(testmap, gameinstance)
+gameinstance.battlefield = bf
 screen = pg.display.set_mode((800, 800))
 
-uitree = widgets.UIRoot(None, Rect(0, 0, 800, 800))
-uitree.children = [
-        game.Game(uitree, Rect(0, 0, 768, 800), bf)
-        ]
+uitree.children.append(gameinstance)
+        
 
 lasttime = get_ticks()
 while True:

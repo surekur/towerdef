@@ -2,6 +2,7 @@ from pygame.math import Vector2 as Vec
 from pygame.time import get_ticks
 from pygame.rect import Rect
 from utils import *
+from pygame.gfxdraw import line
 
 class Entity:
     def __init__(self, pos, game):
@@ -42,8 +43,8 @@ class Animated:
         screen.blit(self.frames[frame])
 
 class Collideable(Entity):
-    def __init__(self, pos):
-        super().__init__(pos)
+    def __init__(self, pos, game):
+        super().__init__(pos, game)
         self.collisionrect = Rect(pos, (TILESIZE, TILESIZE))
         self.collides = True
 
@@ -61,35 +62,56 @@ class Collideable(Entity):
         self.collisionrect.move(v)
 
 
-class Cow(Collideable, Animated):
-    def __init__(self, pos):
-        super().__init__(pos)
+class Cow(Animated):
+    def __init__(self, pos, game):
+        super().__init__(pos, game)
         self.speed = Vec(-1, 0)
         self.frames = [
                     get_image("data/cow.png"),
                 ]
 
     def update(self, delta):
-        self.move(self.speed * delta * self.speed)
+        #self.move(self.speed * delta * self.speed)
+        pass
 
 
 class Truck(Collideable):
-    def __init__(self, pos):
-        super().__init__(pos)
+    def __init__(self, pos, game):
+        super().__init__(pos, game)
         self.speed = Vec(-1, 0)
-        self.acceleration = 1
+        self.maxacceleration = 1
         self.topspeed = 1
         self.hitpoints = 100
         self.path = []
         self.surface = get_image("data/truck-left1.png")
+        self.game.foes.add(self)
 
-    def find_path():
+    def find_path(self):
         pass
 
-    def update(delta):
-        # TODO 
-
-        if self.speed.length > self.topspeed:
+    def update(self, delta):
+        # TODO  Uncomment when pathfinding is implemented!
+        #if self.path:
+        #    acceleration = (self.path[0] - self.pos).scale_to_length(self.maxacceleration)
+        #    self.speed += acceleration * delta
+        if self.speed.length() > self.topspeed:
             self.speed.scale_to_length(self.topspeed)
-        self.pos += self.speed
+        self.move(self.speed)
+
+    def draw(self, screen):
+        screen.blit(self.surface, self.pos)
     
+class Bullet(Collideable):
+    def __init__(self, pos, speed, game):
+        super().__init__(pos, game)
+        self.speed = Vec(speed)
+        self.oldpos = Vec(pos)
+
+    def update(self, delta):
+        self.oldpos = self.pos
+        self.move(self.speed)
+
+    def draw(self, screen):
+        line(screen, self.oldpos.x, self.oldpos.y, self.pos.x, self.pos.y,
+                (100, 0, 0))
+

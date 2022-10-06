@@ -1,7 +1,11 @@
-from widgets import UIElement
+from widgets import UIElement, BuildingPanel
 from pygame.math import Vector2 as Vec
 from constans import *
 from utils import get_image
+import ents
+from battlefield import MGNest
+from pygame.rect import Rect
+import gamesystems
 
 canbuild = get_image("data/can-build.png")
 cantbuild = get_image("data/cant-build.png")
@@ -9,17 +13,32 @@ class Game(UIElement):
     """
     This is the widget where we implementing our actual game word.
     """
-    def __init__(self, parent, area, battlefield):
+    def __init__(self, parent, area ):
         super().__init__(parent, area)
-        self.battlefield = battlefield
+        self.battlefield = {}
         self.ents = set()
         self.foes = set()
-        self.systems = []
+        self.systems = [gamesystems.FoeSpawner(self)]
         self.tileundercursor = Vec(0, 0)
         self.thinkerent = 0
+        self.thinkertile = 0
+        self.selectedbuilding = MGNest
+        self.buildingselector = BuildingPanel(self.parent, 
+                Rect(self.area.width, 0, TILESIZE, 600))
+        self.parent.children.append(self.buildingselector)
+
+        # test:
+        self.ents.add(ents.Truck((600, 200), self))
 
     def on_hover(self, pos):
         self.tileundercursor = Vec(pos) // TILESIZE
+
+    def on_click(self, pos):
+        tilehash = tuple(Vec(pos//TILESIZE))
+        if tilehash in self.battlefield and \
+                self.battlefield[tilehash].canbuildonto:
+            self.battlefield[tilehash] = self.selectedbuilding(tilehash,
+                    self)
 
     def update(self, delta):
         # only 1 entity "thinks" per framestep.
@@ -28,11 +47,14 @@ class Game(UIElement):
             self.thinkerent = 0
         for ent in self.ents:
             if self.thinkerent == i:
-                ent.on_think()
+                ent.think()
                 self.thinkerent += 1
-            ent.update
+            ent.update(delta)
             ent.test_collision(self.ents)
         self.re_draw()
+        for tile in self.battlefield.values():
+            tile.update()
+        # TODO add tile think!
         for system in self.systems:
             system.update(delta)
 

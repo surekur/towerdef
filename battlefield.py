@@ -4,11 +4,12 @@ from pygame.math import Vector2 as Vec
 
 
 class MapTile:
-    def __init__(self):
+    def __init__(self, cord, game):
         self.passable = True
         self.destructible = False
         self.canbuildonto = True
         self.bitmap = get_image('data/foo.png')
+        self.cord = cord
 
     def update(self):
         """
@@ -27,24 +28,39 @@ class MapTile:
         screen.blit(self.bitmap, pos)
 
 
-class MGNest(MapTile):
-    def __init__(self):
+class TowerLike(MapTile):
+    def __init__(self, cord, game):
+        super().__init__(cord, game)
+        self.target = None
+        self.optimalrange = 10
+        self.firingrate = 1
+
+    def shoot(self):
+        pass
+
+    def find_target(self):
+        pass
+
+
+class MGNest(TowerLike):
+    def __init__(self, cord, game):
+        super().__init__(cord, game)
         self.passable = False
         self.destructible = 7
         self.canbuildonto = False
-        self.bitmap = get_image('data/foo.png')
+        self.bitmap = get_image('data/mg_nest.png')
 
 
-def create_hills():
-    hills = MapTile()
+def create_hills(cord, game):
+    hills = MapTile(cord, game)
     hills.bitmap = get_image("data/hill.png")
     hills.passable = False
     hills.destructible = False
     hills.canbuildonto = False
     return hills
 
-def create_grass():
-    grass = MapTile()
+def create_grass(cord, game):
+    grass = MapTile(cord, game)
     grass.passable = True
     grass.destructible = False
     return grass
@@ -55,7 +71,7 @@ tilecodes = {
         "#": create_hills,
         }
 
-def load_battlefield(bfstring):
+def load_battlefield(bfstring, game):
     bf = {}
     x, y = 0, 0
     for char in bfstring:
@@ -64,7 +80,7 @@ def load_battlefield(bfstring):
             y += 1
         else:
             if char in tilecodes:
-                bf[(x, y)] = tilecodes[char]()
+                bf[(x, y)] = tilecodes[char]((x, y), game)
                 x += 1
             else:
                 print("The map file is corrupted. The character: \""+char+\
